@@ -1,3 +1,7 @@
-# Lista 1 repetição (for,while,do while)
+# Lista 1 repetição
+Listas completas de exercícios envolvendo:
 
-git clone https://github.com/Jhon2910/Lista-1-Repeticao.git
+-laços
+-contadores
+-acumuladores
+-loops aninhados
