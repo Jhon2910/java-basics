@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class Jonathan12 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N;
+
+        do {
+            System.out.print("Digite um número (0 para parar): ");
+
+            if (sc.hasNextInt()) {
+                N = sc.nextInt();
+
+                if (N > 0) {
+                    if (N % 2 == 0) {
+                        int triplo = N * 3;
+                        System.out.println("O triplo de " + N + " é: " + triplo);
+                    }
+                    else {
+                        int dobro = N * 2;
+                        System.out.println("O dobro de " + N + " é: " + dobro);
+                    }
+                }
+                else if (N < 0) {
+                    int quadrado = (int) Math.pow(N, 2);
+                    System.out.println("O quadrado de " + N + " é: " + quadrado);
+                }
+            }
+            else {
+                System.out.println("Entrada inválida! Digite um número inteiro.");
+                sc.next();
+                N = -1;
+            }
+        }
+        while (N != 0);
+
+        System.out.println("Programa encerrado!");
+        sc.close();
+    }
+}
