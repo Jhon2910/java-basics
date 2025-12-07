@@ -1,2 +1,6 @@
-# java-basics
-Estudante de Sistemas de Informação | Java e Redes de Computadores
+# Java - Condicionais
+
+Exercícios e exemplos usando estruturas condicionais em Java:
+- if / else
+- operadores lógicos
+- comparações
