@@ -1,6 +1,6 @@
-# Java - Condicionais
+# Java
 
-Exercícios e exemplos usando estruturas condicionais em Java:
-- if / else
-- operadores lógicos
-- comparações
+Tecnologias Utilizadas:
+- Java
+- VS Code / IntelliJ IDEA / antigravity
+- Git & GitHub
